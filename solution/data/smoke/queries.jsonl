@@ -1,0 +1,5 @@
+{"query_id": "q1", "text": "A person in a bright yellow raincoat.", "relevance": {"yellow_raincoat_park": 2}}
+{"query_id": "q2", "text": "Professional business attire inside a modern office.", "relevance": {"black_suit_office": 2, "white_shirt_red_tie_office": 1}}
+{"query_id": "q3", "text": "Someone wearing a blue shirt sitting on a park bench.", "relevance": {"blue_shirt_sitting_park_bench": 2}}
+{"query_id": "q4", "text": "Casual weekend outfit for a city walk.", "relevance": {"casual_hoodie_city_walking": 2}}
+{"query_id": "q5", "text": "A red tie and a white shirt in a formal setting.", "relevance": {"white_shirt_red_tie_office": 2, "red_shirt_white_tie_office": 0}}

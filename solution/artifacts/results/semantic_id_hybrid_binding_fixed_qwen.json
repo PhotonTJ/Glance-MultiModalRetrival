@@ -1,0 +1,102 @@
+{
+  "semantic_id_hybrid": {
+    "precision@1": 0.925,
+    "recall@5": 0.47520407860772623,
+    "recall@10": 0.5457109100182052,
+    "map@10": 0.6857407407407408,
+    "ndcg@10": 0.8652339309135292,
+    "binding_accuracy": 0.940677966101695,
+    "context_satisfaction": 1.0,
+    "semantic_id_hit_rate@10": 0.9833333333333333,
+    "semantic_id_candidate_mean": 95.15833333333333,
+    "latency_ms_mean": 127.89417583335307,
+    "latency_ms_p95": 126.38887999928556
+  },
+  "diagnostics": [
+    {
+      "query": "A person wearing a gray dress in an office setting.",
+      "predicted_semantic_id": [
+        9,
+        8,
+        9
+      ],
+      "semantic_id_candidates": 23,
+      "top_result": {
+        "image_id": "fashionpedia_12674",
+        "score": 0.9332432329319582,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "sid_score": 0.0,
+        "explanation": "matched garment-color, context, style; semantic-id=0.00"
+      }
+    },
+    {
+      "query": "A person wearing a green dress in an office setting.",
+      "predicted_semantic_id": [
+        11,
+        11,
+        5
+      ],
+      "semantic_id_candidates": 100,
+      "top_result": {
+        "image_id": "fashionpedia_18246",
+        "score": 0.9381256177977351,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "sid_score": 0.0,
+        "explanation": "matched garment-color, context, style; semantic-id=0.00"
+      }
+    },
+    {
+      "query": "A person wearing a black shorts in an office setting.",
+      "predicted_semantic_id": [
+        6,
+        7,
+        12
+      ],
+      "semantic_id_candidates": 100,
+      "top_result": {
+        "image_id": "fashionpedia_10984",
+        "score": 0.7467849804017341,
+        "binding_score": 0.0,
+        "context_score": 1.0,
+        "sid_score": 0.35,
+        "explanation": "matched context, style; semantic-id=0.35"
+      }
+    },
+    {
+      "query": "A person wearing a black shirt in an office setting.",
+      "predicted_semantic_id": [
+        6,
+        1,
+        12
+      ],
+      "semantic_id_candidates": 100,
+      "top_result": {
+        "image_id": "fashionpedia_15604",
+        "score": 0.919816281964849,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "sid_score": 0.0,
+        "explanation": "matched garment-color, context, style; semantic-id=0.00"
+      }
+    },
+    {
+      "query": "A person wearing a purple dress in an office setting.",
+      "predicted_semantic_id": [
+        11,
+        11,
+        12
+      ],
+      "semantic_id_candidates": 100,
+      "top_result": {
+        "image_id": "fashionpedia_12726",
+        "score": 0.9388404831934978,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "sid_score": 0.35,
+        "explanation": "matched garment-color, context, style; semantic-id=0.35"
+      }
+    }
+  ]
+}

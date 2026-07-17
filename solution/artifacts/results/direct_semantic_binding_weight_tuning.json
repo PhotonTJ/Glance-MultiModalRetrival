@@ -1,0 +1,28 @@
+{
+  "selection_split": "validation",
+  "objective": "precision@1, then nDCG@10, then mAP@10",
+  "trials": 1201,
+  "default_weights": {
+    "dense": 0.4000000059604645,
+    "binding": 0.20000000298023224,
+    "context": 0.11999999731779099,
+    "sid": 0.10000000149011612,
+    "style": 0.18000000715255737
+  },
+  "selected_weights": {
+    "dense": 0.20423267781734467,
+    "binding": 0.19822941720485687,
+    "context": 0.43925151228904724,
+    "sid": 0.011148142628371716,
+    "style": 0.14713825285434723
+  },
+  "selected_validation": {
+    "precision@1": 0.95,
+    "recall@5": 0.42431072116358376,
+    "recall@10": 0.5154141288073538,
+    "map@10": 0.7388822751322751,
+    "ndcg@10": 0.8886699424492167
+  },
+  "candidate_pool": 100,
+  "sid_pool": 100
+}

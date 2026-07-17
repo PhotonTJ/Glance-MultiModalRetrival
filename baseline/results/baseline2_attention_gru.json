@@ -1,0 +1,175 @@
+{
+  "attention_gru": {
+    "precision@1": 0.675,
+    "recall@5": 0.3376412016698493,
+    "recall@10": 0.49724555592785114,
+    "map@10": 0.574908840388007,
+    "ndcg@10": 0.7873484455369254,
+    "queries": 120,
+    "candidate_pool": 200,
+    "dense_weight": 0.6,
+    "latency_ms_mean": 114.40508583329272,
+    "latency_ms_p95": 118.42751500016675,
+    "garment_top1_accuracy": 0.864406779661017,
+    "color_top1_accuracy": 0.9916666666666667,
+    "binding_top1_accuracy": 0.5847457627118644,
+    "environment_top1_accuracy": 1.0
+  },
+  "diagnostics": [
+    {
+      "query": "A person wearing a gray dress in an office setting.",
+      "components": [
+        "gray dress",
+        "office"
+      ],
+      "attention": {
+        "garment": [
+          0.9928991794586182,
+          0.007100831251591444
+        ],
+        "color": [
+          0.9962950348854065,
+          0.0037049762904644012
+        ],
+        "binding": [
+          0.14366145431995392,
+          0.8563385605812073
+        ],
+        "environment": [
+          1.2026168860757025e-07,
+          0.9999998807907104
+        ]
+      },
+      "top_predictions": {
+        "garment": "dress",
+        "color": "gray",
+        "binding": "dress|||gray",
+        "environment": "office"
+      }
+    },
+    {
+      "query": "A person wearing a green dress in an office setting.",
+      "components": [
+        "green dress",
+        "office"
+      ],
+      "attention": {
+        "garment": [
+          0.9981628060340881,
+          0.0018371536862105131
+        ],
+        "color": [
+          0.9999899864196777,
+          9.977203262678813e-06
+        ],
+        "binding": [
+          0.9940956830978394,
+          0.005904328543692827
+        ],
+        "environment": [
+          3.9766914028405154e-07,
+          0.9999996423721313
+        ]
+      },
+      "top_predictions": {
+        "garment": "dress",
+        "color": "green",
+        "binding": "dress|||red",
+        "environment": "office"
+      }
+    },
+    {
+      "query": "A person wearing a black shorts in an office setting.",
+      "components": [
+        "black shorts",
+        "office"
+      ],
+      "attention": {
+        "garment": [
+          0.9998817443847656,
+          0.00011824077955679968
+        ],
+        "color": [
+          0.9463934302330017,
+          0.053606580942869186
+        ],
+        "binding": [
+          0.9748966097831726,
+          0.025103380903601646
+        ],
+        "environment": [
+          2.0037134618178243e-06,
+          0.9999979734420776
+        ]
+      },
+      "top_predictions": {
+        "garment": "shorts",
+        "color": "black",
+        "binding": "top_/_t-shirt_/_sweatshirt|||black",
+        "environment": "office"
+      }
+    },
+    {
+      "query": "A person wearing a black shirt in an office setting.",
+      "components": [
+        "black shirt",
+        "office"
+      ],
+      "attention": {
+        "garment": [
+          0.9997538924217224,
+          0.0002461140975356102
+        ],
+        "color": [
+          0.9728254675865173,
+          0.02717449888586998
+        ],
+        "binding": [
+          0.9626501798629761,
+          0.03734976798295975
+        ],
+        "environment": [
+          1.0726630534918513e-06,
+          0.999998927116394
+        ]
+      },
+      "top_predictions": {
+        "garment": "shirt_/_blouse",
+        "color": "black",
+        "binding": "top_/_t-shirt_/_sweatshirt|||black",
+        "environment": "office"
+      }
+    },
+    {
+      "query": "A person wearing a purple dress in an office setting.",
+      "components": [
+        "purple dress",
+        "office"
+      ],
+      "attention": {
+        "garment": [
+          0.9988619089126587,
+          0.0011381643125787377
+        ],
+        "color": [
+          0.999984622001648,
+          1.5351208276115358e-05
+        ],
+        "binding": [
+          0.9978492259979248,
+          0.002150772139430046
+        ],
+        "environment": [
+          5.93157267303468e-07,
+          0.9999994039535522
+        ]
+      },
+      "top_predictions": {
+        "garment": "dress",
+        "color": "purple",
+        "binding": "dress|||purple",
+        "environment": "office"
+      }
+    }
+  ]
+}

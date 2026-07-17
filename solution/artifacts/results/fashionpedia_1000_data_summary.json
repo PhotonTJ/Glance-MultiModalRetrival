@@ -1,0 +1,76 @@
+{
+  "images": 1000,
+  "garment_instances": 4337,
+  "sources": {
+    "fashionpedia_val2020": 1000
+  },
+  "splits": {
+    "validation": 151,
+    "test": 149,
+    "train": 700
+  },
+  "environments": {
+    "office": 160,
+    "urban_street": 569,
+    "park": 91,
+    "home": 87,
+    "unknown": 93
+  },
+  "activities": {
+    "unknown": 1000
+  },
+  "garments": {
+    "shoe": 1457,
+    "dress": 406,
+    "skirt": 153,
+    "headband_/_head_covering_/_hair_accessory": 96,
+    "scarf": 46,
+    "jacket": 167,
+    "pants": 300,
+    "shirt_/_blouse": 99,
+    "top_/_t-shirt_/_sweatshirt": 443,
+    "bag_/_wallet": 204,
+    "tights_/_stockings": 120,
+    "glove": 31,
+    "jumpsuit": 17,
+    "glasses": 128,
+    "belt": 154,
+    "coat": 97,
+    "shorts": 101,
+    "sock": 85,
+    "cardigan": 11,
+    "sweater": 20,
+    "hat": 72,
+    "umbrella": 5,
+    "watch": 82,
+    "leg_warmer": 14,
+    "vest": 22,
+    "cape": 4,
+    "tie": 3
+  },
+  "colors": {
+    "red": 445,
+    "gray": 913,
+    "navy": 253,
+    "orange": 272,
+    "brown": 347,
+    "beige": 94,
+    "pink": 111,
+    "unknown": 429,
+    "green": 26,
+    "black": 973,
+    "yellow": 40,
+    "purple": 77,
+    "blue": 147,
+    "white": 210
+  },
+  "annotation_completeness": {
+    "caption": 1.0,
+    "garments": 1.0,
+    "garment_color": 0.727,
+    "environment": 0.907,
+    "activity": 0.0,
+    "style": 0.0,
+    "objects": 0.0
+  }
+}

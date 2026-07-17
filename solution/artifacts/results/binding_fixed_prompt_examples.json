@@ -1,0 +1,54 @@
+[
+  {
+    "query": "A person wearing a black shirt in an office setting.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "fashionpedia_15604",
+        "caption": "A person wearing unknown shoe, gray shoe, black skirt, black shirt_/_blouse in a office setting.",
+        "score": 0.9198,
+        "binding_score": 1.0
+      },
+      {
+        "rank": 2,
+        "image_id": "fashionpedia_10984",
+        "caption": "A person wearing navy shirt_/_blouse, brown bag_/_wallet, unknown watch in a office setting.",
+        "score": 0.7507,
+        "binding_score": 0.0
+      },
+      {
+        "rank": 3,
+        "image_id": "fashionpedia_10395",
+        "caption": "A person wearing black pants, white shirt_/_blouse, unknown headband_/_head_covering_/_hair_accessory in a office setting.",
+        "score": 0.7361,
+        "binding_score": 0.0
+      }
+    ]
+  },
+  {
+    "query": "A person wearing red shoes on an urban street.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "fashionpedia_20458",
+        "caption": "A person wearing red shoe, black shoe, red pants, gray top_/_t-shirt_/_sweatshirt, black glasses, gray headband_/_head_covering_/_hair_accessory in a urban street setting.",
+        "score": 0.9484,
+        "binding_score": 1.0
+      },
+      {
+        "rank": 2,
+        "image_id": "fashionpedia_11630",
+        "caption": "A person wearing pink shoe, red shoe, navy pants, pink shirt_/_blouse, red bag_/_wallet, unknown glasses in a urban street setting.",
+        "score": 0.9411,
+        "binding_score": 1.0
+      },
+      {
+        "rank": 3,
+        "image_id": "fashionpedia_19554",
+        "caption": "A person wearing orange hat, black top_/_t-shirt_/_sweatshirt, black top_/_t-shirt_/_sweatshirt, black bag_/_wallet, black pants, gray shoe in a urban street setting.",
+        "score": 0.9399,
+        "binding_score": 1.0
+      }
+    ]
+  }
+]

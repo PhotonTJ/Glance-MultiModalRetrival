@@ -1,0 +1,170 @@
+{
+  "selection": "first available query from each environment, then original order",
+  "samples": [
+    {
+      "query_id": "auto_fashionpedia_15538",
+      "query": "A person wearing a gray dress in an office setting.",
+      "source_image_id": "fashionpedia_15538",
+      "source_environment": "office",
+      "top_result": {
+        "image_id": "fashionpedia_12674",
+        "image_path": "data\\raw\\fashionpedia_small\\images\\test\\1ca4458d23522f006de2ffda045c3b44.jpg",
+        "caption": "A person wearing gray dress, brown watch, gray shoe, black shoe in a office setting.",
+        "garments": [
+          {
+            "type": "dress",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "watch",
+            "color": "brown",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "black",
+            "pattern": "unknown"
+          }
+        ],
+        "environment": "office",
+        "score": 0.9332432329319582,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "relevance_grade": 2
+      }
+    },
+    {
+      "query_id": "auto_fashionpedia_19905",
+      "query": "A person wearing a orange dress in a urban street setting.",
+      "source_image_id": "fashionpedia_19905",
+      "source_environment": "urban_street",
+      "top_result": {
+        "image_id": "fashionpedia_9711",
+        "image_path": "data\\raw\\fashionpedia_small\\images\\test\\0420c7e0454fbbe11fadd23eb1f40d38.jpg",
+        "caption": "A person wearing orange dress, gray shoe, orange belt in a urban street setting.",
+        "garments": [
+          {
+            "type": "dress",
+            "color": "orange",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "belt",
+            "color": "orange",
+            "pattern": "unknown"
+          }
+        ],
+        "environment": "urban_street",
+        "score": 0.9442993307130332,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "relevance_grade": 2
+      }
+    },
+    {
+      "query_id": "auto_fashionpedia_10330",
+      "query": "A person wearing a black top in a park setting.",
+      "source_image_id": "fashionpedia_10330",
+      "source_environment": "park",
+      "top_result": {
+        "image_id": "fashionpedia_11171",
+        "image_path": "data\\raw\\fashionpedia_small\\images\\test\\a8769fb3b98cdcf3cfaef9dcd329a8d1.jpg",
+        "caption": "A person wearing black hat, gray shorts, black top_/_t-shirt_/_sweatshirt in a park setting.",
+        "garments": [
+          {
+            "type": "hat",
+            "color": "black",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shorts",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "top_/_t-shirt_/_sweatshirt",
+            "color": "black",
+            "pattern": "unknown"
+          }
+        ],
+        "environment": "park",
+        "score": 0.9584408518754118,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "relevance_grade": 2
+      }
+    },
+    {
+      "query_id": "auto_fashionpedia_19375",
+      "query": "A person wearing a orange headband in a home setting.",
+      "source_image_id": "fashionpedia_19375",
+      "source_environment": "home",
+      "top_result": {
+        "image_id": "fashionpedia_10645",
+        "image_path": "data\\raw\\fashionpedia_small\\images\\test\\fdcd3232350a031d96aae02b069b7f88.jpg",
+        "caption": "A person wearing orange watch, gray dress in a home setting.",
+        "garments": [
+          {
+            "type": "watch",
+            "color": "orange",
+            "pattern": "unknown"
+          },
+          {
+            "type": "dress",
+            "color": "gray",
+            "pattern": "unknown"
+          }
+        ],
+        "environment": "home",
+        "score": 0.9189936853694516,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "relevance_grade": 1
+      }
+    },
+    {
+      "query_id": "auto_fashionpedia_18246",
+      "query": "A person wearing a green dress in an office setting.",
+      "source_image_id": "fashionpedia_18246",
+      "source_environment": "office",
+      "top_result": {
+        "image_id": "fashionpedia_18246",
+        "image_path": "data\\raw\\fashionpedia_small\\images\\test\\ee79928543ad42dafc984a30277d264e.jpg",
+        "caption": "A person wearing pink shoe, unknown shoe, green dress in a office setting.",
+        "garments": [
+          {
+            "type": "shoe",
+            "color": "pink",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "unknown",
+            "pattern": "unknown"
+          },
+          {
+            "type": "dress",
+            "color": "green",
+            "pattern": "unknown"
+          }
+        ],
+        "environment": "office",
+        "score": 0.9381256177977351,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "relevance_grade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "synthetic_smoke": {
+    "precision@1": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "map@10": 1.0,
+    "ndcg@10": 0.9927880866633305,
+    "binding_accuracy": 1.0,
+    "context_satisfaction": 1.0,
+    "latency_ms_mean": 1.1118800030089915,
+    "latency_ms_p95": 3.366819999064318
+  }
+}

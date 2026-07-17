@@ -1,0 +1,45 @@
+{
+  "images": 6,
+  "garment_instances": 8,
+  "sources": {
+    "synthetic_smoke": 6
+  },
+  "splits": {
+    "test": 6
+  },
+  "environments": {
+    "park": 2,
+    "office": 3,
+    "urban_street": 1
+  },
+  "activities": {
+    "standing": 3,
+    "sitting": 1,
+    "walking": 1,
+    "working": 1
+  },
+  "garments": {
+    "raincoat": 1,
+    "shirt": 3,
+    "tie": 2,
+    "hoodie": 1,
+    "suit": 1
+  },
+  "colors": {
+    "yellow": 1,
+    "white": 2,
+    "red": 2,
+    "blue": 1,
+    "gray": 1,
+    "black": 1
+  },
+  "annotation_completeness": {
+    "caption": 1.0,
+    "garments": 1.0,
+    "garment_color": 1.0,
+    "environment": 1.0,
+    "activity": 1.0,
+    "style": 1.0,
+    "objects": 0.6666666666666666
+  }
+}

@@ -1,6 +1,9 @@
 __pycache__/
 .pytest_cache/
 .venv/
+
+# Local datasets and generated experiment artifacts.
+# Keep these out of GitHub; attach separately via Releases, Drive, Kaggle, etc.
 solution/data/raw/
 solution/data/processed/images/
 solution/artifacts/embeddings/
@@ -8,4 +11,22 @@ solution/artifacts/indexes/
 solution/artifacts/checkpoints/
 baseline/index/
 baseline/checkpoints/
+
+# Generated packaging metadata.
+*.egg-info/
+
+# Large model/data binaries. GitHub rejects files above 100 MB and browser upload
+# is painful above 25 MB, so these should never be committed directly.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.faiss
+*.npy
+*.npz
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
 *.pyc

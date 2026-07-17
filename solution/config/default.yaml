@@ -1,0 +1,33 @@
+seed: 42
+encoder:
+  model: Qwen/Qwen3-VL-Embedding-2B
+  dimension: 256
+  batch_size: 32
+  prompt: "Retrieve a fashion image matching garment-color bindings, setting, activity, and style."
+faiss:
+  index_type: ivf_pq
+  nlist: 16
+  m: 16
+  nbits: 4
+  nprobe: 16
+  rerank_factor: 6
+  min_ivfpq_vectors: 64
+retrieval:
+  candidate_pool: 200
+  weights:
+    dense: 0.55
+    binding: 0.25
+    context: 0.15
+    style: 0.05
+data:
+  max_images: 1000
+  min_side: 224
+  split: [0.70, 0.15, 0.15]
+training:
+  siamese_epochs: 30
+  siamese_batch_size: 64
+  siamese_learning_rate: 0.0003
+  projection_dimension: 256
+  rqvae_epochs: 50
+  rqvae_levels: 3
+  rqvae_codebook_size: 16

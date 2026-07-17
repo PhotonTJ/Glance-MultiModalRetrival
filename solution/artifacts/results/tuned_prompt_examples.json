@@ -1,0 +1,375 @@
+[
+  {
+    "query": "A person wearing a gray dress in an office setting.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "fashionpedia_12674",
+        "caption": "A person wearing gray dress, brown watch, gray shoe, black shoe in a office setting.",
+        "environment": "office",
+        "garments": [
+          {
+            "type": "dress",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "watch",
+            "color": "brown",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "black",
+            "pattern": "unknown"
+          }
+        ],
+        "score": 0.9332
+      },
+      {
+        "rank": 2,
+        "image_id": "fashionpedia_15525",
+        "caption": "A person wearing gray dress, black shoe, black sock, black shoe, red sock in a office setting.",
+        "environment": "office",
+        "garments": [
+          {
+            "type": "dress",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "black",
+            "pattern": "unknown"
+          },
+          {
+            "type": "sock",
+            "color": "black",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "black",
+            "pattern": "unknown"
+          },
+          {
+            "type": "sock",
+            "color": "red",
+            "pattern": "unknown"
+          }
+        ],
+        "score": 0.9312
+      },
+      {
+        "rank": 3,
+        "image_id": "fashionpedia_12953",
+        "caption": "A person wearing navy dress in a office setting.",
+        "environment": "office",
+        "garments": [
+          {
+            "type": "dress",
+            "color": "navy",
+            "pattern": "unknown"
+          }
+        ],
+        "score": 0.7418
+      }
+    ]
+  },
+  {
+    "query": "A person wearing a black shirt in an office setting.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "fashionpedia_10984",
+        "caption": "A person wearing navy shirt_/_blouse, brown bag_/_wallet, unknown watch in a office setting.",
+        "environment": "office",
+        "garments": [
+          {
+            "type": "shirt_/_blouse",
+            "color": "navy",
+            "pattern": "unknown"
+          },
+          {
+            "type": "bag_/_wallet",
+            "color": "brown",
+            "pattern": "unknown"
+          },
+          {
+            "type": "watch",
+            "color": "unknown",
+            "pattern": "unknown"
+          }
+        ],
+        "score": 0.7507
+      },
+      {
+        "rank": 2,
+        "image_id": "fashionpedia_10395",
+        "caption": "A person wearing black pants, white shirt_/_blouse, unknown headband_/_head_covering_/_hair_accessory in a office setting.",
+        "environment": "office",
+        "garments": [
+          {
+            "type": "pants",
+            "color": "black",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shirt_/_blouse",
+            "color": "white",
+            "pattern": "unknown"
+          },
+          {
+            "type": "headband_/_head_covering_/_hair_accessory",
+            "color": "unknown",
+            "pattern": "unknown"
+          }
+        ],
+        "score": 0.7361
+      },
+      {
+        "rank": 3,
+        "image_id": "fashionpedia_16186",
+        "caption": "A person wearing gray shirt_/_blouse, gray pants, gray belt, gray shoe, gray shoe in a office setting.",
+        "environment": "office",
+        "garments": [
+          {
+            "type": "shirt_/_blouse",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "pants",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "belt",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "gray",
+            "pattern": "unknown"
+          }
+        ],
+        "score": 0.7338
+      }
+    ]
+  },
+  {
+    "query": "A person wearing red shoes on an urban street.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "fashionpedia_15073",
+        "caption": "A person wearing gray top_/_t-shirt_/_sweatshirt, gray bag_/_wallet, red pants, unknown watch, gray shoe, gray shoe in a urban street setting.",
+        "environment": "urban_street",
+        "garments": [
+          {
+            "type": "top_/_t-shirt_/_sweatshirt",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "bag_/_wallet",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "pants",
+            "color": "red",
+            "pattern": "unknown"
+          },
+          {
+            "type": "watch",
+            "color": "unknown",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "gray",
+            "pattern": "unknown"
+          }
+        ],
+        "score": 0.9532
+      },
+      {
+        "rank": 2,
+        "image_id": "fashionpedia_20458",
+        "caption": "A person wearing red shoe, black shoe, red pants, gray top_/_t-shirt_/_sweatshirt, black glasses, gray headband_/_head_covering_/_hair_accessory in a urban street setting.",
+        "environment": "urban_street",
+        "garments": [
+          {
+            "type": "shoe",
+            "color": "red",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "black",
+            "pattern": "unknown"
+          },
+          {
+            "type": "pants",
+            "color": "red",
+            "pattern": "unknown"
+          },
+          {
+            "type": "top_/_t-shirt_/_sweatshirt",
+            "color": "gray",
+            "pattern": "unknown"
+          },
+          {
+            "type": "glasses",
+            "color": "black",
+            "pattern": "unknown"
+          },
+          {
+            "type": "headband_/_head_covering_/_hair_accessory",
+            "color": "gray",
+            "pattern": "unknown"
+          }
+        ],
+        "score": 0.9484
+      },
+      {
+        "rank": 3,
+        "image_id": "fashionpedia_9430",
+        "caption": "A person wearing unknown glasses, red top_/_t-shirt_/_sweatshirt, black pants, unknown shoe, unknown shoe in a urban street setting.",
+        "environment": "urban_street",
+        "garments": [
+          {
+            "type": "glasses",
+            "color": "unknown",
+            "pattern": "unknown"
+          },
+          {
+            "type": "top_/_t-shirt_/_sweatshirt",
+            "color": "red",
+            "pattern": "unknown"
+          },
+          {
+            "type": "pants",
+            "color": "black",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "unknown",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "unknown",
+            "pattern": "unknown"
+          }
+        ],
+        "score": 0.9423
+      }
+    ]
+  },
+  {
+    "query": "A person wearing a blue dress in a park setting.",
+    "results": [
+      {
+        "rank": 1,
+        "image_id": "fashionpedia_14102",
+        "caption": "A person wearing blue dress, red glasses, red sock, pink sock, orange shoe, orange shoe in a park setting.",
+        "environment": "park",
+        "garments": [
+          {
+            "type": "dress",
+            "color": "blue",
+            "pattern": "unknown"
+          },
+          {
+            "type": "glasses",
+            "color": "red",
+            "pattern": "unknown"
+          },
+          {
+            "type": "sock",
+            "color": "red",
+            "pattern": "unknown"
+          },
+          {
+            "type": "sock",
+            "color": "pink",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "orange",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "orange",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shorts",
+            "color": "blue",
+            "pattern": "unknown"
+          }
+        ],
+        "score": 0.9476
+      },
+      {
+        "rank": 2,
+        "image_id": "fashionpedia_10927",
+        "caption": "A person wearing blue dress, unknown shoe, unknown shoe in a park setting.",
+        "environment": "park",
+        "garments": [
+          {
+            "type": "dress",
+            "color": "blue",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "unknown",
+            "pattern": "unknown"
+          },
+          {
+            "type": "shoe",
+            "color": "unknown",
+            "pattern": "unknown"
+          }
+        ],
+        "score": 0.9402
+      },
+      {
+        "rank": 3,
+        "image_id": "fashionpedia_10180",
+        "caption": "A person wearing blue dress in a park setting.",
+        "environment": "park",
+        "garments": [
+          {
+            "type": "dress",
+            "color": "blue",
+            "pattern": "unknown"
+          }
+        ],
+        "score": 0.9272
+      }
+    ]
+  }
+]

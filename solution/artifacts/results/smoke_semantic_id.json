@@ -1,0 +1,102 @@
+{
+  "semantic_id_hybrid": {
+    "precision@1": 0.8,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "map@10": 0.8666666666666666,
+    "ndcg@10": 0.917376534287144,
+    "binding_accuracy": 1.0,
+    "context_satisfaction": 1.0,
+    "semantic_id_hit_rate@10": 1.0,
+    "semantic_id_candidate_mean": 1.8,
+    "latency_ms_mean": 3.819340000336524,
+    "latency_ms_p95": 12.564840001141416
+  },
+  "diagnostics": [
+    {
+      "query": "A person in a bright yellow raincoat.",
+      "predicted_semantic_id": [
+        1,
+        2,
+        0
+      ],
+      "semantic_id_candidates": 2,
+      "top_result": {
+        "image_id": "yellow_raincoat_park",
+        "score": 0.7384900182485581,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "sid_score": 0.0,
+        "explanation": "matched garment-color, context, style; semantic-id=0.00"
+      }
+    },
+    {
+      "query": "Professional business attire inside a modern office.",
+      "predicted_semantic_id": [
+        1,
+        2,
+        1
+      ],
+      "semantic_id_candidates": 2,
+      "top_result": {
+        "image_id": "red_shirt_white_tie_office",
+        "score": 0.77,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "sid_score": 0.7,
+        "explanation": "matched garment-color, context, style; semantic-id=0.70"
+      }
+    },
+    {
+      "query": "Someone wearing a blue shirt sitting on a park bench.",
+      "predicted_semantic_id": [
+        2,
+        2,
+        0
+      ],
+      "semantic_id_candidates": 1,
+      "top_result": {
+        "image_id": "blue_shirt_sitting_park_bench",
+        "score": 0.9032795667648315,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "sid_score": 1.0,
+        "explanation": "matched garment-color, context, style; semantic-id=1.00"
+      }
+    },
+    {
+      "query": "Casual weekend outfit for a city walk.",
+      "predicted_semantic_id": [
+        0,
+        2,
+        0
+      ],
+      "semantic_id_candidates": 2,
+      "top_result": {
+        "image_id": "casual_hoodie_city_walking",
+        "score": 0.835,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "sid_score": 0.35,
+        "explanation": "matched garment-color, context, style; semantic-id=0.35"
+      }
+    },
+    {
+      "query": "A red tie and a white shirt in a formal setting.",
+      "predicted_semantic_id": [
+        1,
+        2,
+        0
+      ],
+      "semantic_id_candidates": 2,
+      "top_result": {
+        "image_id": "white_shirt_red_tie_office",
+        "score": 0.8867721915245057,
+        "binding_score": 1.0,
+        "context_score": 1.0,
+        "sid_score": 1.0,
+        "explanation": "matched garment-color, context, style; semantic-id=1.00"
+      }
+    }
+  ]
+}
