@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.venv/
+solution/data/raw/
+solution/data/processed/images/
+solution/artifacts/embeddings/
+solution/artifacts/indexes/
+solution/artifacts/checkpoints/
+baseline/index/
+baseline/checkpoints/
+*.pyc

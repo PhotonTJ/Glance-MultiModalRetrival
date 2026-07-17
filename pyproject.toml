@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fashion-context-retrieval"
+version = "0.1.0"
+description = "Metadata-aware multimodal retrieval for compositional fashion queries"
+requires-python = ">=3.10"
+dependencies = [
+  "faiss-cpu>=1.14.3",
+  "numpy>=1.26",
+  "pillow>=10.0",
+  "pydantic>=2.7",
+  "pyyaml>=6.0",
+  "scikit-learn>=1.5",
+  "sentence-transformers>=5.2",
+  "torch>=2.4",
+  "torchvision>=0.19",
+  "transformers>=5.0",
+]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.8", "seaborn>=0.13"]
+dev = ["pytest>=8.0"]
+app = ["streamlit>=1.35"]
+
+[project.scripts]
+fashion-retrieval = "fashion_retrieval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["solution/src"]
+
+[tool.pytest.ini_options]
+testpaths = ["solution/tests"]
+pythonpath = ["solution/src"]
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+torchvision = { index = "pytorch-cu126" }
